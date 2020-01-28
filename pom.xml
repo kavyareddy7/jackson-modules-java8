@@ -76,5 +76,12 @@
       </plugins>
     </pluginManagement>
   </build>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshot</id>
+			<name>nexus-snapshot</name>
+			<url>http://localhost:8081/repository/nexus-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
